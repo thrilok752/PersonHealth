@@ -119,7 +119,7 @@ BioGPT Model (~1.29GB)
 [https://drive.google.com/drive/folders/1tMfOJxfas67CyhDBpOW8HoEcq5ubYmCJ?usp=sharing]
 
 Specialist Recommendation Model based on Symptom (~2.79GB)
-[]https://drive.google.com/drive/folders/13ik7b64q8jwW1KsD2Tkph2epCWMmKT8e?usp=sharing
+[https://drive.google.com/drive/folders/13ik7b64q8jwW1KsD2Tkph2epCWMmKT8e?usp=sharing]
 
 After downloading place them inside:
 
