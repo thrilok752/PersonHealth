@@ -1,0 +1,51 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# =====================
+# ML Models
+# =====================
+models/
+*.bin
+*.pt
+*.pth
+*.pkl
+*.onnx
+
+# =====================
+# Datasets
+# =====================
+datasets/
+*.csv
+*.json
+*.zip
+
+# =====================
+# Node / React
+# =====================
+node_modules/
+dist/
+build/
+.env
+
+# =====================
+# Android
+# =====================
+.gradle/
+.idea/
+build/
+local.properties
+*.apk
+*.aab
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
