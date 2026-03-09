@@ -1,4 +1,4 @@
-# Healthcare AI Assistant
+# Healthcare Website
 
 An AI-powered healthcare assistant that combines Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and personalized health data to provide intelligent medical question answering, health recommendations, and specialist suggestions.
 
