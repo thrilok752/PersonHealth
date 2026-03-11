@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-ya6v&*-j+5v%=z+&vo1x24#_9g$6v=zxf&s3r@h(j2=49riho7'
+SECRET_KEY = os.getenv("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -92,7 +92,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'healthuser',
         'USER': 'postgres',
-        'PASSWORD': 'rollno21',
+        'PASSWORD': os.getenv("DB_PASSWORD"),
         'HOST': 'localhost',
         'PORT': '5432',
     }
@@ -182,7 +182,7 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 EMAIL_HOST_USER = 'personhealthweb@gmail.com'
-EMAIL_HOST_PASSWORD = 'eqfc osna tqsr wadz'  
+EMAIL_HOST_PASSWORD = os.getenv("EMAIL_HOST_PASSWORD")  
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 SESSION_ENGINE = "django.contrib.sessions.backends.db"  
 SESSION_COOKIE_NAME = "sessionid"  
@@ -196,4 +196,4 @@ CSRF_COOKIE_SECURE = True
 
 
 
-GOOGLE_API_KEY = 'AIzaSyAlBx6mFgRaGpz-9Of-HmwBbP3EFzXgStM'
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")'
